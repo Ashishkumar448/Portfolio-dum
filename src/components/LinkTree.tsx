@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
-import { Terminal, Share2, Palette, MessageSquare, PlaySquare, Mail } from 'lucide-react';
+import { Terminal, Share2, Palette, MessageSquare, PlaySquare } from 'lucide-react';
 
 const categoryIcons: Record<string, any> = {
     "Coding Platforms": Terminal,
@@ -150,3 +150,4 @@ export default function LinkTree() {
         </div>
     );
 }
+
